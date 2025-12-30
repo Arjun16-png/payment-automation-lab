@@ -18,3 +18,5 @@ scenarios such as callbacks, idempotency, and failure handling.
 # Progress Log
 ```2025-12-28 : Bootstrapped payment automation framework (Java 11, Maven, TestNG) and validated setup with first executable API test```
 ```2025-12-29 : Added duplicate callback idempotency scenario to prevent double transaction processing```
+```2025-12-30 : Added invalid signature callback to prevent unauthorized transaction updates```
+
