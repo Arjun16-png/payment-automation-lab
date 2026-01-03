@@ -20,6 +20,7 @@ scenarios such as callbacks, idempotency, and failure handling.
 - ***2025-12-29*** - Added duplicate callback idempotency scenario to prevent double transaction processing
 - ***2025-12-30*** - Added invalid signature callback to prevent unauthorized transaction updates
 - ***2025-12-31*** - Introduced late callback handling to prevent transaction state regression after timeout
-- ***2026-01-01*** - Added amount mismatch callback validation to prevent inconsistence transaction update
+- ***2026-01-01*** - Added amount mismatch callback validation to prevent inconsistence transaction update  
+- ***2026-01-03*** - Add payment state transition guard for late callback                                          
 
 
