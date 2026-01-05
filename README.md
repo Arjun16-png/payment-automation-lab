@@ -23,4 +23,5 @@ scenarios such as callbacks, idempotency, and failure handling.
 - ***2026-01-01*** - Added amount mismatch callback validation to prevent inconsistence transaction update  
 - ***2026-01-03*** - Add payment state transition guard for late callback                                          
 - ***2026-01-04*** - Add concurrency-safe callback processing test
+- ***2026-01-05*** - Refactor idempotent callback handling with atomic concurrency control
 
