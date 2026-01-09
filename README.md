@@ -27,4 +27,4 @@ scenarios such as callbacks, idempotency, and failure handling.
 - ***2026-01-06*** - Added HMAC callback signature verification to ensure callback authenticity and payload integrity
 - ***2026-01-07*** - Add retry logic with exponential backoff for callback handling
 - ***2026-01-08*** - Add payment invariant validation test for amount
-
+- ***2026-01-09*** - Add idempotency key TTL handling to prevent unbounded growth
