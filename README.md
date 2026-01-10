@@ -5,6 +5,8 @@ A focused automation project that simulates **real-world payment gateway behavio
 This repository is **not a tutorial project**.  
 It is designed to demonstrate how payment systems should be tested against **failure modes that cause real financial incidents**.
 
+[![CI](https://github.com/Arjun16-png/payment-automation-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Arjun16-png/payment-automation-lab/actions/workflows/ci.yml)
+
 ---
 
 ## Why This Project Exists
