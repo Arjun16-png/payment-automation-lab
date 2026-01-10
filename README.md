@@ -28,3 +28,4 @@ scenarios such as callbacks, idempotency, and failure handling.
 - ***2026-01-07*** - Add retry logic with exponential backoff for callback handling
 - ***2026-01-08*** - Add payment invariant validation test for amount
 - ***2026-01-09*** - Add idempotency key TTL handling to prevent unbounded growth
+- ***2026-01-10*** — Added payment state ordering and concurrency-safe callback handling to prevent state regression under out-of-order and parallel callbacks
